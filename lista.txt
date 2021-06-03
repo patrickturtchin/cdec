@@ -2,3 +2,4 @@
 - cigarro
 - cerveja
 - gillete
+- arroz
