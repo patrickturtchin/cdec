@@ -1,5 +1,0 @@
-- pizza
-- cigarro
-- cerveja
-- gillete
-- arroz
