@@ -1,0 +1,23 @@
+{
+  "name": "cdec",
+  "version": "1.0.0",
+  "description": "### 1) Fazer uma função que recebe o ano de nascimento e retorne a idade da pessoal.",
+  "main": "birthdate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "iniciar": "nodemon birthdate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickturtchin/cdec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickturtchin/cdec/issues"
+  },
+  "homepage": "https://github.com/patrickturtchin/cdec#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
