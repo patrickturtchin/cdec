@@ -9,3 +9,4 @@ function removeFirstAndAddBanana (lista) {
 
 console.log (removeFirstAndAddBanana(listaFrutas))
 console.log (removeFirstAndAddBanana(listaPizzas))
+
