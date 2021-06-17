@@ -118,14 +118,36 @@ const clientes = {
   },
 };
 
-const { rua, bairro, cidade, outro } = clientes.cliente1.endereco;
+// const { rua, bairro, cidade, outro } = clientes.cliente1.endereco;
 
 // const rua = clientes.cliente1.endereco.rua;
 // const bairro = clientes.cliente1.endereco.bairro;
 // const cidade = clientes.cliente1.endereco.cidade;
 // const outro = clientes.cliente1.endereco.outro;
 
-console.log(rua);
-console.log(bairro);
-console.log(cidade);
-console.log(outro);
+// console.log(rua);
+// console.log(bairro);
+// console.log(cidade);
+// console.log(outro);
+
+const { rua, outro, ...resto } = clientes.cliente1.endereco;
+
+console.log(resto);
+
+const coresQuentes = {
+  vermelho: 'red',
+  laranja: 'orange',
+  amarelo: 'yellow',
+};
+
+const coresFrias = {
+  azul: 'blue',
+  cinza: 'gray',
+  verde: 'green',
+};
+
+const { vermelho, ...resto } = coresQuentes;
+
+const cores = { ...coresFrias, ...resto };
+
+console.log(cores);
