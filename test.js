@@ -80,6 +80,8 @@ function papagaio(texto) {
 }
 console.log(papagaio('VAGINA'));
 
+// classes e construtor de objetos
+
 function CriarPessoa(firstName, lastName) {
   this.nome = firstName;
   this.sobrenome = lastName;
@@ -102,6 +104,8 @@ class CriarNarga {
 
 const nargaDoPatrick = new CriarNarga(1, 2, 10);
 const nargaDoSany = new CriarNarga(2, 4, 15);
+
+// destructuring
 
 const clientes = {
   cliente1: {
@@ -129,6 +133,8 @@ const clientes = {
 // console.log(bairro);
 // console.log(cidade);
 // console.log(outro);
+
+// spread operator
 
 const { rua, outro, ...resto } = clientes.cliente1.endereco;
 
